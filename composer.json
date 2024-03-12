@@ -7,6 +7,14 @@
         "parser",
         "page-number"
     ],
+    "license": "DOC",
+    "authors": [
+        {
+            "name": "Daniel Sentker",
+            "email": "tracid.2008@gmail.com",
+            "role": "lead"
+        }
+    ],
     "require": {
         "php": ">=8.2"
     },
