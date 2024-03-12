@@ -31,5 +31,9 @@
         "psr-4": {
             "DSentker\\Tests\\": "tests/"
         }
+    },
+    "scripts": {
+        "tests-cs": "./vendor/bin/php-cs-fixer check src/",
+        "tests-unit": "./vendor/bin/phpunit"
     }
 }
