@@ -1,4 +1,12 @@
 {
+    "name": "dsentker/numeric-range-parser",
+    "description": "A parser for reading indexed ranges, e.g. page numbers",
+    "type": "library",
+    "keywords": [
+        "range",
+        "parser",
+        "page-number"
+    ],
     "require": {
         "php": ">=8.2"
     },
