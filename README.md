@@ -19,7 +19,7 @@ $result = $parser->parse('1-3;5');
 dump($result->toNormalizedArray()); // [1, 2, 3, 5]
 
 
-// $result is an iterator, iterating over indexes is possible to
+// $result is traversable, iterating over indexes is possible too
 foreach ($result as $index) {
     echo $index . PHP_EOL;
 }
