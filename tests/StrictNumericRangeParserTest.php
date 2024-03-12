@@ -4,7 +4,6 @@ declare(strict_types=1);
 
 namespace Dsentker\Tests;
 
-use DSentker\DefaultNumericRangeParser;
 use DSentker\RangeException;
 use DSentker\StrictNumericRangeParser;
 use PHPUnit\Framework\Attributes\DataProvider;

@@ -13,7 +13,7 @@ final class IndexIterator extends \AppendIterator
     {
         $indexes = iterator_to_array($this, false);
         sort($indexes);
-        return array_unique($indexes, \SORT_NUMERIC);
+        return array_values(array_unique($indexes, \SORT_NUMERIC));
     }
 
 }

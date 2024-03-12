@@ -30,7 +30,7 @@ class RangeException extends \RangeException
 
     public static function emptyBlock(): static
     {
-        return new static('The block is empty and cannot be parsed', self::EMPTY_BLOCK);
+        return new static('The block is empty and cannot be parsed!', self::EMPTY_BLOCK);
     }
 
     public static function invalidCharacters(array $allowedSeparators): static
