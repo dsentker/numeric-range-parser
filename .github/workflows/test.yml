@@ -29,4 +29,4 @@ jobs:
       - name: Run PHP CS Fixer
         run: composer run-script tests-cs
       - name: Run PHPUnit
-        run: composer run-script tests-unut
+        run: composer run-script tests-unit
