@@ -82,4 +82,3 @@ with PHPUnit:
 Bugs and feature request are tracked on GitHub.
 
 If you have general questions or want to implement a feature, you are welcome to collaborate.
-
